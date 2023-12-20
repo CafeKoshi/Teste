@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Japonesas Gostosas</title>
+  <style>
+    body {
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      color: white;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 50px;
+      margin-bottom: 300px; 
+    }
+
+    input {
+      padding: 5px;
+      margin-right: 10px;
+    }
+
+    button {
+      padding: 4px;
+    }
+  </style>
+</head>
+<body>
+  <img src="IMG-20231219-WA0060.jpg" alt="Gostosas">
+  <p>feche os olhos</p>
+  
+  <label for="resposta"><i>Resposta:</i></label>
+  <input type="text" id="resposta" name="resposta">
+<br>
+  <button onclick="verificarResposta()">Enviar</button>
+
+  <script>
+    function verificarResposta() {
+      var respostaInserida = document.getElementById("resposta").value.toLowerCase(); 
+      var respostaCorreta = "lindas"; 
+
+      if (respostaInserida === respostaCorreta) {
+        window.location.href = "Socorro3.html"; 
+      } else {
+        alert("Resposta incorreta, Desista agora.");
+      }
+    }
+  </script>
+</body>
+</html>
